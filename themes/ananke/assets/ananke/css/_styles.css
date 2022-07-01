@@ -126,7 +126,7 @@ hr {
 	border-radius: 75px;
 	overflow:hidden;
 	float:left;
-	margin-right:40px;
+	margin-right:20px;
 }
 .team-text-70 {
 	float:left;
@@ -302,16 +302,38 @@ padding:2rem 0 2rem 0;
 	width:100%;	
 }
 
-	.w-70-ns {
-		max-width:1400px !important;
+.w-70-ns {
+		width:100%;
 		margin: 0 auto;
 		width:100%;
-	}
-
+}
+.pb7 {
+	padding-bottom:0;
+}
+.logobox {
+	padding-right:5%;
+}
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-
+	.pb7, 	.pv5 {
+		padding:0;
+	}
+	.team-overview {
+		display:inline;
+	}
+	.team-post {
+		width:100%;
+		max-width:100%;
+	}
+	
+	.logohome {
+		display:none;
+	}
+	.logonav {
+		width:50%;
+		margin-left:25%;
+	}
 	.workshop-overview {
 		display: inline;
 		box-sizing: border-box; 
@@ -327,18 +349,27 @@ and (max-device-width : 480px) {
 		height: 300px; 
 		width: 50%;
 	}
+	.pa3 {
+		padding:0;
+	}
 	
 	.w-70-ns {
-		width:85% !important;
+		width:95% !important;
 	}
 	.bg-top {
 		background-image: url(https://dawnofman.nl/ICoMSE-mobile.jpg) !important;
-		height:300px;
+		height:200px;
 	}
 	.workshops-img {
 		width:100%;
 	}
 	iframe {
 		width:100%;
+	}
+	.our-materials-posts {
+		width:100%;
+	}
+	.resources-columns {
+		display:inline;
 	}
 }

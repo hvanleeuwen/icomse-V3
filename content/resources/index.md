@@ -4,7 +4,7 @@ description: "Resources"
 instructions: "TEST"
 materials: "Other materials can be found via this link:"
 lessons: "https://icomse.github.io/example-template/"
-featured_image: 'ICoMSE-bg.jpg'
+featured_image: "/images/ICoMSE-BG-V6.jpg"
 ---
 
 {{< our-materials >}}

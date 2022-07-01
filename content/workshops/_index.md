@@ -1,7 +1,6 @@
 ---
 title: "Workshops"
 description: "Workshops"
-featured_image: "images/web-top2.jpg"
-top_image: "web-top2.jpg"
+featured_image: "/images/ICoMSE-BG-V6.jpg"
 ---
 Some text about workshops if needed.
