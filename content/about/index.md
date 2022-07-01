@@ -1,8 +1,7 @@
 ---
 title: "About"
 description: "What is i-CoMSE?"
-featured_image: '/images/web-top.jpg'
-top_image: "web-top.jpg"
+featured_image: '/images/ICoMSE-BG-V6.jpg'
 ---
 
 i-CoMSE is focused on serving the needs of the community engaged in fundamental research in computational molecular science and engineering (CMSE) by:

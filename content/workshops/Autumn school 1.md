@@ -1,6 +1,6 @@
 ---
 date: 2017-04-14T11:25:05-04:00
-featured_map: "https://www.openstreetmap.org/export/embed.html?bbox=-88.90909194946289%2C33.3713949556903%2C-88.67254257202148%2C33.5066198447588&amp;layer=mapnik"
+featured_image: "penn-state.jpeg"
 title: "Autumn school 1"
 application_deadline: "2022-6-20"
 decision_on_application: "Unknown"

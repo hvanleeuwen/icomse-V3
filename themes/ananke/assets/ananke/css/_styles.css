@@ -59,6 +59,13 @@ padding:1%;
 	border-box; 
 	width: 50%;
 }
+.workshop-highlights .pa4 {
+	padding:2rem;
+}
+
+.news-highlights .pa3 {
+	padding:0;
+}
 
 .news-overview {
 	margin-top:0;
@@ -81,6 +88,10 @@ color: #1b6485;
 
 .posts-top {
 	
+}
+
+.site-header .mr3 {
+	line-height: 30px;
 }
 
 .active {
@@ -119,7 +130,7 @@ hr {
 }
 .team-text-70 {
 	float:left;
-	width:70%;
+	width:calc(90% - 150px);
 }
 .team-text-70 h2, .team-text-70 h4 {
 	padding:0;
@@ -174,7 +185,7 @@ iframe {
 }
 
 .post-overview {
-	width:1400px;
+	max-width:1400px;
 	margin:0 auto;
 }
 .team-overview {
@@ -196,8 +207,11 @@ display: flex;
  display:flex;
  padding:0 0 0 2%;
  align-items: flex-start;
- min-width:20%;
+ min-width:25%;
  overflow:hidden;
+}
+.resource-column:first-child {
+	padding-left:0;
 }
 
 .team-post {
@@ -277,6 +291,7 @@ text-align: center;
 }
 
 .pa4 {
+padding:2rem 0 2rem 0;
 }
 
 .workshops-posts .pa4 {
@@ -288,8 +303,9 @@ text-align: center;
 }
 
 	.w-70-ns {
-		width:1400px !important;
+		max-width:1400px !important;
 		margin: 0 auto;
+		width:100%;
 	}
 
 @media only screen 
@@ -315,5 +331,14 @@ and (max-device-width : 480px) {
 	.w-70-ns {
 		width:85% !important;
 	}
-
+	.bg-top {
+		background-image: url(https://dawnofman.nl/ICoMSE-mobile.jpg) !important;
+		height:300px;
+	}
+	.workshops-img {
+		width:100%;
+	}
+	iframe {
+		width:100%;
+	}
 }
