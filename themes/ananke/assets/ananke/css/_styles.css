@@ -16,7 +16,7 @@ padding:2%;
 .supported {
 background: rgb(235,235,235);
 background: linear-gradient(180deg, rgba(235,235,235,1) 0%, rgba(255,255,255,1) 33%);
-color:#144d92;
+color:#001483;
 padding:2%;
 }
 .supported span {
@@ -80,7 +80,7 @@ padding:2%;
 }
 
 .darkblue {
-color: #144d92;	
+color: #001483;	
 }
 
 .bg-white {
@@ -301,7 +301,7 @@ text-align: center;
 .team-subtitle {
 	width:100%;
 	text-align: center;
-	color:#144d92;
+	color:#001483;
 }
 .resources-posts {
 }
