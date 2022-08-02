@@ -1,4 +1,11 @@
 /* Put your custom styles here and run `npm start` from the "src" directory on */
+.barlow {
+	font-family: 'Mulish', sans-serif !important;
+}
+
+h1 {
+	letter-spacing: .01em;
+}
 
 .payoff {
 	background: rgb(91,130,164);
