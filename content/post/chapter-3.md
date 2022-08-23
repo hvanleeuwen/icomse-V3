@@ -2,7 +2,8 @@
 date: 2021-06-22T11:25:05-04:00
 when: "20 august 2022"
 featured_image: "/images/website-snapshot.jpg"
-top_image: "web-top.jpg"
+background: "false"
+menu: "true"
 title: "National Science Foundation awards funding to establish Institute of Computational Molecular Science Education (October 2021)"
 ---
 

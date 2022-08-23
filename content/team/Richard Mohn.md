@@ -4,11 +4,12 @@ featured_image: "avatars.jpg"
 title: "Richard Mohn"
 universities: "Mississippi State University"
 roles: "External Evaluator"
-categories: [ "Executive Committee" ]
-contact_info: Unknown
+categories: [ "External Evaluator" ]
+contact_info: "Richard.mohn@usm.edu"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur augue massa, sagittis in ornare ornare, ultrices id eros.
+Professor\
+School of Education
 
 
 

@@ -1,14 +1,14 @@
 ---
 date: 2017-04-14T11:25:05-04:00
-featured_image: "avatars.jpg"
+featured_image: "tamar.jpg"
 title: "Tamar Burrell"
 universities: "Mississippi State University"
 roles: "Project Coordinator"
-categories: [ "Executive Committee" ]
-contact_info: unknown
+categories: [ "Project Coordinator" ]
+contact_info: "tamar@i-comse.org"
+ph: "662-325-2480"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur augue massa, sagittis in ornare ornare, ultrices id eros.
 
 
 

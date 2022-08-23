@@ -2,7 +2,8 @@
 date: 2021-07-12T11:14:48-04:00
 when: "10 Oct 2022"
 featured_image: "/images/osu.jpg"
-top_image: "osu-top.jpg"
+background: "false"
+menu: "true"
 title: "Applications are open for MD/MC Summer School"
 ---
 {{< img src="osu.jpg" title="Institute of Computational Molecular Science Education" >}}

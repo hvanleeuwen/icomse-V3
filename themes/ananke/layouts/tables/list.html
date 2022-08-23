@@ -3,12 +3,12 @@
   This template is the same as the default and is here to demonstrate that if you have a content directory called "post" you can create a layouts directory, just for that section.
    */}}
   <article class="pa3 pa4-ns nested-copy-line-height">
-    <section class="testing2 cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+    <section class="testing2 cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide test-list lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
       {{ .Content }} 
     </section>
     
-    <div class="team-subtitle"><h2>Quantum Chemistry</h2></div>
-    <div class="post-overview">
+    <div class="team-subtitle"><h2>Quantum Chemistry test</h2></div>
+    <div class="post-overview testing7">
 {{ $ev := where site.RegularPages "Type" "tables" }}
 {{ $ev = where $ev "Params.categories" "intersect" (slice "Quantum Chemistry") }}
 {{ range first 999 $ev }}

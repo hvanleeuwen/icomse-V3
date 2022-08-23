@@ -1,15 +1,17 @@
 ---
 date: 2017-04-14T11:25:05-04:00
-featured_image: "rai1.jpeg"
+featured_image: "neeraj.jpg"
 title: "Neeraj Rai"
 universities: "Mississippi State University"
 roles: "Executive Committee"
 categories: ["Executive Committee"]
-contact_info: neerajrai@che.msstate.edu
+contact_info: "neeraj@i-comse.org"
+ph: "+1 662 325 0790"
 ---
 
-Dr. Rai is the contact PI for the NSF grant funding i-CoMSE, and the main manager of the DFT educational efforts.
-
+Associate Professor & Ergon, Inc.\
+Distinguished Professor\
+Dave C. Swalm School of Chemical Engineering
 
 
 

@@ -56,10 +56,10 @@
 
     
 
-  
-  
-  <header class="cover bg-top posts-top testing2" style="background-image: url('images/ICoMSE-BG-V6.jpg');">
-    <div class="bg-black-0 site-header">
+
+
+  <header>
+    <div class="bg-none">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="/icomse-V3/" class="f3 fw2 logobox hover-white no-underline white-90 dib">
@@ -136,7 +136,7 @@
       
       
       
-            <a class="hover-white no-underline white-90 " href="https://someforumurl.com" title="Forums page" 
+            <a class="hover-white no-underline white-90 " href="https://github.com/icomse/mcmd-hoomd/discussions/" title="Forums page" 
             target="blank"
              >
               Forums
@@ -162,18 +162,8 @@
   </div>
 </nav>
 
-      <div class="tc-l pv6 ph3 ph4-ns">
-         <img style="margin-top:10px; 
-         position: absolute;
-    left: 50%;
-    margin-left: -225px;
-    width:450px;
-    " src="https://hvanleeuwen.github.io/icomse-V3/images/logo-large.png" class="logohome w100 mw6-ns" alt="I-CoMSE" />
-
-      </div>
     </div>
   </header>
-
 
     <main class="pb7" role="main">
       
@@ -215,30 +205,24 @@
 
   
 
-  <div class="flex-l mt2 w-70-ns center">
-    <article class="left cf ph3">
+
+  
+
+
+
         
       <div class="display-inline">
         
-        
-        
-        
-        
-        
-		
-       
-    
-    
-  
-		
-       
-      </div>  
-      
-      
-      
-    </article>
-  </div>
 
+                
+        
+      
+   
+
+
+
+	
+</div>
 
 
 
@@ -331,6 +315,18 @@ $( document ).ready(function() {
 	console.log('workshops-button');
 	})	
 	console.log('ready');
+	
+	
+	
+	$( ".teams-button" ).on( "click", function() {
+	  	var myId = $(this).attr("id");
+	  	$(".team-wrapper").hide();		  	
+	  	$('.'+myId).show();	
+	  	$( ".teams-button" ).removeClass("active-button");
+	  	$(this).addClass("active-button");
+	  	console.log('teams button clicked .' + myId);	  
+	});	
+	
 });	    	    
 	</script>
     

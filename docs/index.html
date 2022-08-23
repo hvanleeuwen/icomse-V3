@@ -6,7 +6,7 @@
     
     <title>Home | I-CoMSE</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Lorem ipsum">
+    <meta name="description" content="ICoMSE">
     <meta name="generator" content="Hugo 0.97.3" />
     
     
@@ -40,14 +40,14 @@
     
     
     <meta property="og:title" content="Home" />
-<meta property="og:description" content="Lorem ipsum" />
+<meta property="og:description" content="ICoMSE" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://hvanleeuwen.github.io/icomse-V3/" />
 
 <meta itemprop="name" content="Home">
-<meta itemprop="description" content="Lorem ipsum"><meta name="twitter:card" content="summary"/>
+<meta itemprop="description" content="ICoMSE"><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Home"/>
-<meta name="twitter:description" content="Lorem ipsum"/>
+<meta name="twitter:description" content="ICoMSE"/>
 
 	
   </head>
@@ -56,9 +56,10 @@
 
     
 
+
   
   
-  <header class="cover bg-top testing" style="background-image: url('https://hvanleeuwen.github.io/icomse-V3/images/ICoMSE-bg.jpg');">
+    <header class="cover bg-top posts-top testing2" style="background-image: url('https://hvanleeuwen.github.io/icomse-V3/images/ICoMSE-bg.jpg');">
     <div class="bg-black-0 site-header">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
@@ -136,7 +137,7 @@
       
       
       
-            <a class="hover-white no-underline white-90 " href="https://someforumurl.com" title="Forums page" 
+            <a class="hover-white no-underline white-90 " href="https://github.com/icomse/mcmd-hoomd/discussions/" title="Forums page" 
             target="blank"
              >
               Forums
@@ -169,25 +170,28 @@
     left: 50%;
     margin-left: -225px;
     width:450px;
-    " src="https://hvanleeuwen.github.io/icomse-V3/images/logo-large.png" class="logohome w100 mw6-ns" alt="I-CoMSE" />
+    " src="https://hvanleeuwen.github.io/icomse-V3/images/logo-large-V2.png" class="logohome w100 mw6-ns" alt="I-CoMSE" />
     
-      </div>
+      </div>     
     </div>
   </header>
+
 
 
     <main class="pb7" role="main">
       
 <div class="payoff">
 	<span class="w-70-ns center">
-	The institute aims to provide basic and advanced training needs of computational molecular science and engineering community though in-person and virtual schools and well-curated training materials.
+	<p>The institute aims to provide basic and advanced training needs of computational molecular science and engineering community though in-person and virtual schools and well-curated training materials.</p>
+
 	</span>
 </div>
 
 <div class="pa3 pa4-ns w-100 w-70-ns center">
 
           <h1 class="barlow flex-none darkblue">
-            Current events
+		  <br/>
+            Upcoming Workshops
           </h1>
 
 	<div class="w-100 center workshop-overview">
@@ -424,6 +428,18 @@ $( document ).ready(function() {
 	console.log('workshops-button');
 	})	
 	console.log('ready');
+	
+	
+	
+	$( ".teams-button" ).on( "click", function() {
+	  	var myId = $(this).attr("id");
+	  	$(".team-wrapper").hide();		  	
+	  	$('.'+myId).show();	
+	  	$( ".teams-button" ).removeClass("active-button");
+	  	$(this).addClass("active-button");
+	  	console.log('teams button clicked .' + myId);	  
+	});	
+	
 });	    	    
 	</script>
     

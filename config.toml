@@ -22,6 +22,7 @@ tag = "tags"
   decision-on-application = "decision-on-applications"
   registration = "registrations"
   contact_info = "contact_info"
+  ph = "ph"  
   material = "materials"
   instruction = "instructions"
   lesson = "lessons"
@@ -69,7 +70,7 @@ tag = "tags"
   identifier = 'forums'
   name = 'Forums'
   pre = "<i class='fa fa-heart'></i>"
-  url = 'https://someforumurl.com'
+  url = 'https://github.com/icomse/mcmd-hoomd/discussions/'
   weight = -50
 [[menu.main]]
   identifier = 'contact'

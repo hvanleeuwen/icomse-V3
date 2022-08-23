@@ -83,6 +83,18 @@ $( document ).ready(function() {
 	console.log('workshops-button');
 	})	
 	console.log('ready');
+	
+	// Teams
+	
+	$( ".teams-button" ).on( "click", function() {
+	  	var myId = $(this).attr("id");
+	  	$(".team-wrapper").hide();		  	
+	  	$('.'+myId).show();	
+	  	$( ".teams-button" ).removeClass("active-button");
+	  	$(this).addClass("active-button");
+	  	console.log('teams button clicked .' + myId);	  
+	});	
+	
 });	    	    
 	</script>
     

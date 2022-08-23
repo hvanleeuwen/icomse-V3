@@ -2,7 +2,8 @@
 date: 2021-07-13T11:15:58-04:00
 when: "20 july 2022"
 featured_image: "/images/msstate.jpg"
-top_image: "msstate-top.jpg"
+background: "false"
+menu: "true"
 title: "Applications are open for DFT for Catalysis Summer School"
 ---
 

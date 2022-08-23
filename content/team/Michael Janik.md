@@ -1,14 +1,16 @@
 ---
 date: 2017-04-14T11:25:05-04:00
-featured_image: "avatars.jpg"
+featured_image: "janik.jpg"
 title: "Michael Janik"
-universities: "Mississippi State University"
-roles: "Instructors"
+universities: "The Pennsylvania State University"
+roles: "Instructor"
 categories: [ "Instructors" ]
-contact_info: Unknown
+contact_info: "mjj13@psu.edu"
+ph: "+1 814 863 9366"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur augue massa, sagittis in ornare ornare, ultrices id eros.
+Professor\
+Department of Chemical Engineering
 
 
 

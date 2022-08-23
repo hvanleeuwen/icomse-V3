@@ -1,14 +1,16 @@
 ---
 date: 2017-04-14T11:25:05-04:00
-featured_image: "avatars.jpg"
+featured_image: "sapna.png"
 title: "Sapna Sarupria"
-universities: "Mississippi State University"
+universities: "University of Minnesota"
 roles: "Executive Committee"
 categories: [ "Executive Committee" ]
-contact_info: Unknown
+contact_info: "sarupria@i-comse.org"
+ph: "+1 612 624 8299"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur augue massa, sagittis in ornare ornare, ultrices id eros.
+Associate Professor\
+Department of Chemistry
 
 
 
